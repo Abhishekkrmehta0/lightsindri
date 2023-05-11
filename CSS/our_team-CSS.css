@@ -1,0 +1,50 @@
+ /* Set the background color of the page */
+ body {
+    background-color: #ffc107;
+  }
+
+  /* Set the style for the team member boxes */
+  .box {
+    border: none;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  /* Set the hover effect for the team member boxes */
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  
+   /* Set the style for the team member images */
+  .box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 50px; */
+    margin-bottom: 7px;
+  }
+  
+   /* Set the style for the team member names */
+  .box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 10 px;
+  }
+  
+  /* Set the style for the team member roles */
+  .box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 5 px;
+  }
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
