@@ -47,7 +47,7 @@
             background:url(Images/19128ngochild.jpg);
             background-size: cover;
         }
-        section:before
+/*         section:before
         {
             content:'';
             position: absolute;
@@ -59,7 +59,7 @@
             background-size: cover;
             background-position:center;
            mix-blend-mode: screen;
-        }
+        } */
         .box{
             display: flex;
         }
